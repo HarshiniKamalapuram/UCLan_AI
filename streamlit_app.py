@@ -63,7 +63,7 @@ def main():
     st.title('My UCLan Boat')
 
   #  pdf_docs = st.file_uploader("Upload PDF", type=['pdf'], accept_multiple_files=True)
-    with open(r"C:\Users\Harshini\Downloads\About_UCLan.txt", "r", encoding="latin-1") as file:
+    with open(r"About_UCLan.txt", "r", encoding="latin-1") as file:
         raw_text = file.read() 
         #raw_text = get_pdf_text(pdf_docs)
     text_chunks = get_text_chunks(raw_text)
