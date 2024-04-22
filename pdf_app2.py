@@ -13,7 +13,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 #
-OPENAI_API_KEY = 'sk-proj-JqjHt7FRhLbb28aKfPE2T3BlbkFJOuHP1eHrhWFWgzAruIK3'
+OPENAI_API_KEY = 'api'
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 vectorstore = None
